@@ -67,7 +67,7 @@
             android:src="@drawable/berger"
             android:visibility="gone"
             android:adjustViewBounds="true"
-            android:scaleType="fitCenter" /> <!-- 修改 scaleType 為 center -->
+            android:scaleType="fitCenter" />
 
 
         <TextView
@@ -132,7 +132,7 @@
             android:src="@drawable/cola"
             android:visibility="gone"
             android:adjustViewBounds="true"
-            android:scaleType="fitCenter" /> <!-- 修改 scaleType 為 center -->
+            android:scaleType="fitCenter" />
 
 
         <TextView
@@ -172,6 +172,8 @@
         android:layout_marginRight="16dp"
         tools:ignore="DuplicateIds" />
 
+
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -189,6 +191,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginBottom="16dp"
         android:gravity="start"/>
+
 
     <TextView
         android:id="@+id/textViewTotalPrice"

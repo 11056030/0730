@@ -1,3 +1,7 @@
+/*
+11056007 李冠彣、11056030 蔡依恬
+ */
+
 package com.example.myapplication
 
 import android.content.Intent

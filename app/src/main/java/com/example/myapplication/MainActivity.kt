@@ -1,3 +1,7 @@
+/*
+11056007 李冠彣、11056030 蔡依恬
+ */
+
 package com.example.myapplication
 
 import android.annotation.SuppressLint
@@ -40,8 +44,8 @@ class MainActivity : AppCompatActivity() {
         checkBoxIceCream = findViewById(R.id.checkBoxIceCream)
         buttonCalculate = findViewById(R.id.buttonCalculate)
         buttonReset = findViewById(R.id.buttonReset)
-        textViewResult = findViewById(R.id.textViewResult)
-        textViewResult.text = "您的點餐金額將會顯示於此"
+        
+
 
         buttonCalculate.setOnClickListener {
             showConfirmationDialog()
@@ -107,7 +111,6 @@ class MainActivity : AppCompatActivity() {
         checkBoxFries.isChecked = false
         checkBoxCake.isChecked = false
         checkBoxIceCream.isChecked = false
-        textViewResult.text ="您的點餐金額將會顯示於此"
     }
 
     private fun showConfirmationDialog() {
