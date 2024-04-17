@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#232323">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="訂餐系統"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:gravity=""/>
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20pt"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:gravity="start"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="主餐"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        tools:ignore="DuplicateIds" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#CCCCCC"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+
+    <LinearLayout
+        android:layout_width="2in"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_style">
+
+        <ImageView
+            android:id="@+id/imageViewMainCourse"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="8pt"
+            android:src="@drawable/berger"
+            android:visibility="gone"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" /> <!-- 修改 scaleType 為 center -->
+
+
+        <TextView
+            android:id="@+id/textViewMainCourse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical|start"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+
+        <TextView
+            android:id="@+id/textViewMainCourseQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:gravity="end"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="飲料"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        tools:ignore="DuplicateIds" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#CCCCCC"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <LinearLayout
+        android:layout_width="2in"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_style">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="8pt"
+            android:src="@drawable/cola"
+            android:visibility="gone"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" /> <!-- 修改 scaleType 為 center -->
+
+
+        <TextView
+            android:id="@+id/textViewDrink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical|start"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+
+        <TextView
+            android:id="@+id/textViewDrinkQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:gravity="end"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="加購商品"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        tools:ignore="DuplicateIds" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#CCCCCC"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewAddOns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="start"/>
+
+    <TextView
+        android:id="@+id/textViewTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20pt"
+        android:layout_marginBottom="16dp"
+        android:gravity="start"/>
+
+
+
+    <android.widget.Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:text="點　餐"
+        android:textSize="18sp"
+        android:layout_marginTop="20pt"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="@drawable/button_background"
+        android:padding="12dp"
+        android:layout_marginEnd="8dp" />
+
+</LinearLayout>
